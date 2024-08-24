@@ -46,5 +46,9 @@ For more details on how the algorithm works refer to the original paper
 - Witness events (Double Circles) which are decided as famous are cloured/filled with light grey.
 - Witness events (Double Circles) which are decided as infamous are coloured/filled with dark grey.
 - The number inside the circle gives the order number of that event in the consensus order. No number present implies that the order for that event hasn't yet been determined.
-  
 
+  ![alt text](https://github.com/atharva151101/Hedera_Hashgraph/blob/main/Hashgraph2_full.png)
+
+## Output for a larger graph 
+  
+  ![alt text](https://github.com/atharva151101/Hedera_Hashgraph/blob/main/Hashgraph1_full.png)
