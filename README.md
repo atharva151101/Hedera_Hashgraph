@@ -44,14 +44,13 @@ For more details on how the algorithm works refer to the original paper
 
 
 ## Example HashGraph Visualizer Output
-- Each member in the Hashgraph is determined by a vertical line.
+- The first graph indicates the bare Hashgraph without any application of the consensus algorithm. The second graph shows the events in Hashgraph divided into separate rounds and also the witness events for each round. The third graph shows the witness events being marked as famous or infamous. The fourth graph shows the complete Hashgraph with the ordering of events in the consensus order after the consensus algorithm is applied.
+- Each member in the Hashgraph is shown by a vertical line.
 - Each circle represents an event in the Hashgraph.
 - The circles that are of the same color are events that belong to the same round.
 - Witness events are the double-circled events in the image.
-- Witness events (Double Circles) which are decided as famous are colored/filled with light grey.
-- Witness events (Double Circles) which are decided as infamous are colored/filled with dark grey.
+- Witness events (Double Circles) which are decided as famous are colored/filled with light grey, while Witness events which are decided as infamous are colored/filled with dark grey. Witness events that are not colored/filled are the witnesses whose fame is undecided.
 - The number inside the circle gives the order number of that event in the consensus order. No number present implies that the order for that event hasn't yet been determined.
-
   ![alt text](https://github.com/atharva151101/Hedera_Hashgraph/blob/main/Hashgraph2_full.png)
 
 ## Output for a larger graph 
