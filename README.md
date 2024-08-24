@@ -1,5 +1,5 @@
 # Hedera-Hashgraph
-Simple Implementation of the Hashgraph Consensus Algorithm along with its visualization.
+Implementation of the Hashgraph Consensus Algorithm along with its visualization.
 
 Based on the paper https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf
 
