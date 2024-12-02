@@ -10,7 +10,7 @@ Based on the paper https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf
    ```
  - The program can be run by importing the IPython/Jupyter notebook `hedera_hashgraph.ipynb` (recommended) or directly running the python program `hedera_hashgraph.py`.  
  - The program requires the input to be given in the following format
-   - The first line should be a single integer containing the number of nodes
+   - The first line should be a single integer containing the number of nodes.
    - All the subsequent lines describe an event. The event is described but providing the following information each separated by a space -
      - The creator of the event i.e the number of the member who created the event
      - The unique id of the event (A unique integer)
